@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IPFS TEST</title>
+</head>
+<body>
+    <h1>Upload file to IPFS</h1>
+    <form action = "/upload" method="POST" enctype="multipart/form-data">
+        <label for="">FileName</label>
+        <input type="text" name="name">
+        <br>
+        <label for="">uploadFile</label>
+        <input type="file" name="file" multiple/>
+        <br/>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
